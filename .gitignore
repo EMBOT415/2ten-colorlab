@@ -1,0 +1,18 @@
+# Exclude these files from the git repo
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+sitemap.*
+wp-config.php
+wp-admin/*
+wp-includes/*
+
+ 
+# Hidden system files
+*.DS_Store
+*Thumbs.db
+*.Trashes
+ 
+# Include these files in previously blocked directories
+!wp-content/uploads/.htaccess
