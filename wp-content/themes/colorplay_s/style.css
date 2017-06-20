@@ -13,6 +13,10 @@
 .page-template-page-work section {
 	text-align: center;
 }
+#wpadminbar {
+  display:none;
+}
+
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
@@ -221,6 +225,7 @@ nav .active a:after{
   width:100%;
 }
 .mobile-menu{
+
   position: fixed;
   top:15px;
   right:17px;
@@ -418,6 +423,7 @@ ul.menu{
     height:1px;
   }
 /*}*/
+
 
 /* ====================
     transitions
@@ -898,6 +904,9 @@ footer .menu li a{
   display:inline-block;
   padding:0 5px;
 }
+  .entry-content {
+    padding-top:100px;
+  }
 
 /* ==========================================================================
    Media Queries
@@ -920,8 +929,8 @@ footer .menu li a{
     padding:0 60px 10% 60px;
   }
   /* EMILY - swap "section" for "entry-content" */
-  .entry-content{
-    padding-top:50px;
+  .entry-content {
+    padding-top:100px;
   }
 
 /*  .main section:first-child{
