@@ -1,5 +1,5 @@
 @font-face {
-	font-family: orator-std;  
+	font-family: orator-std, monospace;  
 	/*src: url(http://localhost:8888/colorplay-lab/wp-content/themes/colorplay_s/fonts/OratorStd.otf);  */
 	src: url('OratorStd.otf');  
 	font-weight: normal;  
@@ -65,6 +65,16 @@
 	display: block;
 }
 
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+@media(min-width:600px){
+  .gallery img {
+    max-width: 80%;
+    height: auto;
+  }
+}
 /* DROPPING IN MCM CSS*/
 
 
@@ -178,7 +188,7 @@ nav li{
   text-align:left;
   display:block;
   text-transform:uppercase;
-  font-family: 'orator-std', monospace;
+  font-family: 'orator-std';
   font-style: italic;
   letter-spacing: 0.3em;
   font-size:24px;
@@ -388,9 +398,10 @@ ul.menu{
 }
 
 .main img{
-  width:100%;
+ width:100%;
   height:auto;
 }
+
 /*@media(min-width:768px){
 */  /* sticky footer */
   .page{
