@@ -16,15 +16,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+
+
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'colorplay_s' ); ?></a>
+
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+		<div class="logo"><a href="/"><img src="http://localhost:8888/colorplay-lab/wp-content/uploads/2017/06/colorplay-logo-black.png"></a></div>
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

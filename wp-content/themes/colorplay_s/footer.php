@@ -17,13 +17,15 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'colorplay_s' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'colorplay_s' ), 'WordPress' );
+				/*printf( esc_html__( 'Proudly powered by %s', 'colorplay_s' ), 'WordPress' );*/
 			?></a>
-			<span class="sep"> | </span>
+			
+<div class="copyright">
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'colorplay_s' ), 'colorplay_s', '<a href="https://automattic.com/">Underscores.me</a>' );
+				printf('&copy 2017 Colorplay Labs, Inc. All rights reserved.');
 			?>
+</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
